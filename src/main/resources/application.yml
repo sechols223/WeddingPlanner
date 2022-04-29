@@ -1,0 +1,16 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          auth0:
+            client-id: pebdL74xnybjh96f5PFWlljNYr7Bha7l
+            client-secret: lumOAmWXRp92Dob2a8HX_MnwvMX-Las_a_4nuR0D8mAEsfeVBFunqTwN-tICg3PH
+            scope:
+              - openid
+              - profile
+              - email
+        provider:
+          auth0:
+            # trailing slash is important!
+            issuer-uri: https://sparkling-frog-1883.us.auth0.com/
